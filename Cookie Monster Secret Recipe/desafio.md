@@ -10,7 +10,8 @@ You can access the Cookie Monster here and good luck."
 Foi fornecido um link, que ao clicar nele, nos leva ao seguinte site: [here](http://verbal-sleep.picoctf.net:49737/)
 
 ## Solução
-Após uma análise cuidadosa do site, ao tentar entrar com um usuário e senha aleatório, somos levados para uma pagina que contêm as seguintes informações: [![Print.png](https://i.postimg.cc/tgZJSL6j/Captura-de-tela-2025-05-08-203858.png)](https://postimg.cc/WDVstYSW)
+Após uma análise cuidadosa do site, ao tentar entrar com um usuário e senha aleatório, somos levados para uma pagina que contêm as seguintes informações: 
+[![Print.png](https://i.postimg.cc/tgZJSL6j/Captura-de-tela-2025-05-08-203858.png)](https://postimg.cc/WDVstYSW)
 
 Quando chegamos nessa página, nos deparamos com 'Me no need password. Me just need cookies!', ou seja, o foco do desafio não tem relacção alguma com descobrir usuário ou senha. O proxímo passo foi olhar entender Cookies como pequenos arquivos de texto que um site guarda no seu computador ou dispositivo móvel quando o visita, e a frase "Hint: Have you checked your cookies lately?" nos leva a voltar ao início do site para verificar os Cookies do mesmo.
 
