@@ -16,7 +16,7 @@ Após uma análise cuidadosa da frase obtida ao abrir o arquivo, percebe-se que 
 Pode incluir um ou dois sinais de igual (=) no final como preenchimento.
 A string tem um comprimento divisível por 4."
 
-Portanto, utilizaremos sites de decodificação como o [B64](https://www.base64decode.org/) para descobrir o que a mensagem que passar, nos retornando: "d3BqdkpBTXtqaGx6aHlfazNqeTl3YTNrX20wMjEyNzU4fQ==", percebe-se que ao decodificar pela primeira vez, a mensagem continua na Base64, nos indicando que o ela foi codificada mais de uma vez.
+Portanto, utilizaremos sites de decodificação como o [B64](https://www.base64decode.org/) para descobrir o que a mensagem quer passar, nos retornando: "d3BqdkpBTXtqaGx6aHlfazNqeTl3YTNrX20wMjEyNzU4fQ==", percebe-se que ao decodificar pela primeira vez, a mensagem continua na Base64, nos indicando que o ela foi codificada mais de uma vez.
 Então, o mesmo processo é repetido, mas dessa vez com a nova sequência obtida, e ao decodifica-la, temos acesso a esse texto: "wpjvJAM{jhlzhy_k3jy9wa3k_m0212758}"
 
 Agora que terminamos de retirar da Base64, ao analisarmos o formato obtido da última decodificação, vemos que tem um formato similar a flags de CTF (JAM{...} lembra CTF{...}), lembramos por sua vez da Cifra de César, uma técnica de criptografia que desloca as letras do alfabeto por um número fixo de posições, assim, relacionando o prefixo JAM com CTF, vê-se um deslocamento de 19 letras (ou -7).
